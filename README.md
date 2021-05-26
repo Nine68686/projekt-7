@@ -9,9 +9,6 @@
 4. Install dependencies - `pip3 install -r requirements.txt`
 5. Run the code - `python3 main.py`
 
-### Notes
-I testes this only on linux, but I am sure it should still work on windows anyways.
-
 ### How to use
 Run `python3 main.py`, if you completed instalation. Program is bassicaly self explanatory - you need to input your quadratic function general form (a, b and c), as well as range you want to look at. You can also go with default values, which will work as well.
 
