@@ -1,33 +1,18 @@
-# Drawing square function chart
+### Jak
+Uruchom `python3 main.py`, jeśli zakończyłeś instalację. Program jest w zasadzie oczywisty - musisz wprowadzić ogólną formę funkcji kwadratowej (a, b i c), a także zakres, na który chcesz się przyjrzeć. Możesz także wybrać wartości domyślne, które również będą działać.
 
+### Dokumenty
 
-# Instalation
+Użyte biblioteki można przeglądać w pliku Requirements.txt.
 
-1. Clone this repository
-2. Activate your venv
-3. Move into this repository
-4. Install dependencies - `pip3 install -r requirements.txt`
-5. Run the code - `python3 main.py`
+````
+def FunkcjaKwadratowa(x, a, b, c):
+     zwróć a*x**2 + b*x + c
+````
 
-### How to use
-Run `python3 main.py`, if you completed instalation. Program is bassicaly self explanatory - you need to input your quadratic function general form (a, b and c), as well as range you want to look at. You can also go with default values, which will work as well.
+Ta funkcja to po prostu [funkcja kwadratowa](https://www.google.com/search?q=quadratic+function+general+form&oq=qua&aqs=chrome.0.69i59j69i57j0i433j0l2j69i65j69i61l2.762j0j7&sourceid=chrome&ie=UTF-8 „funkcja kwadratowa”) .
 
-### Docs
-
-Libraries used can be viewed at requirements.txt file.
-
-```
-def squareFunction(x, a, b, c):
-    return a*x**2 + b*x + c
-```
-
-This function is simply [quadratic function](https://www.google.com/search?q=quadratic+function+general+form&oq=qua&aqs=chrome.0.69i59j69i57j0i433j0l2j69i65j69i61l2.762j0j7&sourceid=chrome&ie=UTF-8 "quadratic function").
-
-It gives result, based on X and given parameters a, b, c (which describes this function)
-
-
-
-Another method in this code is drawChart() - it shows a window, cointaining a chart based on given information.
+Daje wynik na podstawie X i podanych parametrów a, b, c (co opisuje tę funkcję)
 ```
 def drawChart(a, b, c, first, last):
 
@@ -59,16 +44,4 @@ def drawChart(a, b, c, first, last):
 
     # show the plot
     plt.show()
-```
-
-
-
-
-#### Pseudocode:
-
-1. Initializing GUI, containing form.
-2. When user clicks "Submit" button code moves forward (with values given in the form)
-3. When user clicks "Cancel" button program stops.
-4. Linspace of 100 values in given range is created.
-5. This function is run over all those 100 values
-6. Chart of given values is drawn
+`
